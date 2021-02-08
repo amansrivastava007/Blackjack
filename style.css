@@ -1,0 +1,79 @@
+    body {
+        padding: 0px;
+        margin: 0px;
+    }
+    body::before{
+        background: url('images/background.jpg_fit=scale') no-repeat center/cover;
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        z-index: -1;
+        opacity: 0.5;
+    }
+.container{
+    border: 2px solid black;
+   
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+.row-1, .row-2, .row-3{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.row-1 div{
+    /* border: 1px solid black; */
+    padding: auto;
+    height: 370px;
+    flex: 1;
+}
+#hit{
+    background-color: green; 
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+#stand{
+    background-color: red; 
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    /* text-decoration: */
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+#deal{
+    background-color: yellow; 
+    border: none;
+    color: white;
+    padding: 9px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+.row-3 table{
+    
+    border: 1px solid black;
+}
+#user-box{
+    flex-wrap: wrap;
+    flex-direction: row;
+}
