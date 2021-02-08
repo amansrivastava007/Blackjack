@@ -116,7 +116,7 @@ async function computer() {
     if (blackjackGame['isHit'] == true) {
 
         blackjackGame['isStand'] = true;
-        while (DEALER['score'] < 16 || YOU['score']>DEALER['score'] && YOU['score]<22) {
+        while (DEALER['score'] < 16 || YOU['score']>DEALER['score'] && YOU['score']<22) {
             let card = randomCard();
             showCard(DEALER, card);
             updateScore(card, DEALER);
