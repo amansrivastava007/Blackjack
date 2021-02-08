@@ -3,7 +3,7 @@
         margin: 0px;
     }
     body::before{
-        background: url('images/background.jpg_fit=scale') no-repeat center/cover;
+        background: url('../images/background.jpg_fit=scale') no-repeat center/cover;
         content: "";
         position: absolute;
         top: 0;
